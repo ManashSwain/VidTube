@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon"  type="png" href="Images/play.png">
+    <title>VidTube - Video Streaming Website</title>
+</head>
+<body>
+
+    <!-- Navbar  -->
+
+    <nav>
+        <div class="nav-container flex">
+            <div class="nav-left flex">
+                <img src="/Images/menu.png" class="img-menu" id="nav-menu" alt="menu" onclick="togglesidebar()">
+                <img src="/Images/logo.png" class="img-logo" alt="logo">
+            </div>
+            <div class="nav-middle flex">
+                <div class="input-field flex">
+                    <input type="text" placeholder="Search">
+                    <img src="/Images/search.png"class="img-search" alt="search">
+                </div>
+                <img src="/Images/voice-search.png" class="img-voice" alt="voice">
+            </div>
+            <div class="nav-right flex">
+                <div class="nav-right-icons flex">
+                    <img src="/Images/upload.png" class="img-upload" alt="upload">
+                    <img src="/Images/more.png" class="img-more" alt="more">
+                    <img src="/Images/notification.png" class="img-notification" alt="notification">
+                </div>
+                <div class="profile">
+                    <img src="/Images/Jack.png" class="img-tom" alt="tom">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar  -->
+
+    <div class="sidebar"id="mini-sidebar">
+        <div class="sidebar-icons">
+            <a href="#"><img src="/Images/home.png" alt="Home" class="main"><p style="color:red">Home</p></a>
+            <a href="#"><img src="/Images/explore.png" alt="Explore"><p>Explore</p></a>
+            <a href="#"><img src="/Images/subscriprion.png" alt="Subscription"><p>Subscription</p></a>
+            <a href="#"><img src="/Images/library.png" alt="Library"><p>Library</p></a>
+            <a href="#"><img src="/Images/history.png" alt="History"><p>History</p></a>
+            <a href="#"><img src="/Images/playlist.png" alt="Playlist"><p>Playlist</p></a>
+            <a href="#"><img src="/Images/messages.png" alt="Messages"><p>Messages</p></a>
+            <a href="#"><img src="/Images/show-more.png" alt="Show More"><p>Show More</p></a>
+            <hr>
+        </div>
+        <div class="subscriptions">
+            <h3>SUBSCRIBED</h3>
+            <a href="#"><img src="/Images/Jack.png" alt="Jack Nicholson"><p>Jack Nicholson</p></a>
+            <a href="#"><img src="/Images/simon.png" alt="Simon Baker"><p>Simon Baker</p></a>
+            <a href="#"><img src="/Images/tom.png" alt="Tom Hardy"><p>Tom Hardy</p></a>
+            <a href="#"><img src="/Images/megan.png" alt="Megan Ryan"><p>Megan Ryan</p></a>
+            <a href="#"><img src="/Images/cameron.png" alt="Cameron Diaz"><p>Cameron Diaz</p></a>
+        </div>
+    </div>
+
+    <!-- Banner and main section  -->
+
+    <div class="main-container" id="maincontainer">
+       <div class="banner-section">
+        <img src="/Images/banner.png" alt="banner-image">
+       </div>
+       <div class="list-container">
+        <div class="vid-list">
+            <a href="video.html"><img src="/Images/thumbnail1.png" alt="thumbnail1-image" class="thumb-nail"></a>
+              <div class="vid-info">
+                <div>
+                    <img src="/Images/Jack.png" alt="Jack-image">
+                </div>
+                <div class="contents">
+                    <a href="video.html">Best Channel to learn coding that helps you to become a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>112k Views &middot; 6 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+             <a href="video.html"><img src="/Images/thumbnail2.png" alt="thumbnail1-image" class="thumb-nail"></a>
+            <div class="vid-info">
+                <div>
+                    <img src="/Images/Jack.png" alt="Jack-image">
+                </div>
+                <div class="contents">
+                    <a href="video.html">Mastering Node.js: Essential Tips and Tricks for Efficient Server-Side JavaScript Development!</a>
+                    <p>Easy Tutorials</p>
+                    <p>142k Views &middot; 3 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="video.html"><img src="/Images/thumbnail3.png" alt="thumbnail1-image" class="thumb-nail"></a>
+            <div class="vid-info">
+                <div>
+                    <img src="/Images/Jack.png" alt="Jack-image">
+                </div>
+                <div class="contents">
+                    <a href="video.html">Web Development Wonders: Unleashing the Power of CSS Grid for Stunning Layouts and Designs</a>
+                    <p>Easy Tutorials</p>
+                    <p>2k Views &middot; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="video.html"><img src="/Images/thumbnail4.png" alt="thumbnail1-image" class="thumb-nail"></a>
+            <div class="vid-info">
+                <div>
+                    <img src="/Images/Jack.png" alt="Jack-image">
+                </div>
+                <div class="contents">
+                    <a href="video.html">Python Mastery: Dive Deep into Advanced Python Concepts and Boost Your Programming Prowess!</a>
+                    <p>Easy Tutorials</p>
+                    <p>123k Views &middot; 13 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="video.html"><img src="/Images/thumbnail5.png" alt="thumbnail1-image" class="thumb-nail"></a>
+            <div class="vid-info">
+                <div>
+                    <img src="/Images/Jack.png" alt="Jack-image">
+                </div>
+                <div class="contents">
+                    <a href="video.html">Creative Coding Chronicles: Building Interactive and Engaging Web Apps with HTML5 and JavaScript</a>
+                    <p>Easy Tutorials</p>
+                    <p>112k Views &middot; 8 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="video.html"><img src="/Images/thumbnail6.png" alt="thumbnail1-image" class="thumb-nail"></a>
+            <div class="vid-info">
+                <div>
+                    <img src="/Images/Jack.png" alt="Jack-image">
+                </div>
+                <div class="contents">
+                    <a href="video.html">AI Unleashed: Exploring the Fascinating World of Artificial Intelligence and Machine Learning Innovations!</a>
+                    <p>Easy Tutorials</p>
+                    <p>12k Views &middot; 6 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="video.html"><img src="/Images/thumbnail7.png" alt="thumbnail1-image" class="thumb-nail"></a>
+            <div class="vid-info">
+                <div>
+                    <img src="/Images/Jack.png" alt="Jack-image">
+                </div>
+                <div class="contents">
+                    <a href="video.html">Data Science Demystified: Unlocking Insights and Patterns with Python and Pandas Data Analysis!</a>
+                    <p>Easy Tutorials</p>
+                    <p>412k Views &middot; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="video.html"><img src="/Images/thumbnail8.png" alt="thumbnail1-image" class="thumb-nail"></a>
+            <div class="vid-info">
+                <div>
+                    <img src="/Images/Jack.png" alt="Jack-image">
+                </div>
+                <div class="contents">
+                    <a href="video.html">Responsive Web Design Revolution: Crafting Modern and Mobile-Friendly Websites with CSS and Media Queries!</a>
+                    <p>Easy Tutorials</p>
+                    <p>125k Views &middot; 18 days ago</p>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
